@@ -69,7 +69,7 @@ export default function Index() {
 		  </Menu>
 		</Container>
       </Container>
-	  <Segment vertical fluid style={{ paddingTop: '0px', marginBottom: '2em', paddingBottom: '2em' }}>
+	  <Segment vertical fluid style={{ paddingTop: '0px' }}>
 		<div className="img-box">
 		  <img alt="" src="/cat1.png" className="ui fluid image" />
 		  <div className="top-top-msg msg">
@@ -90,7 +90,7 @@ export default function Index() {
 			</i>
 		  </div>
 		</div>
-		<div className="img-box" style={{paddingTop: '5px'}}>
+		<div className="img-box" style={{paddingTop: '0px'}}>
 		  <img alt="" src="/cat2.jpg" className="ui fluid image" />
 		  <div className="company-top-msg msg">
 			<i>
@@ -114,7 +114,7 @@ export default function Index() {
 			</Grid>
 		  </div>
 		</div>
-		<div className="img-box" style={{paddingTop: '5px'}}>
+		<div className="img-box" style={{paddingTop: '0px'}}>
 		  <img alt="" src="/tiger1.jpg" className="ui fluid image" />
 		  <div className="company-top-msg msg">
 			<i>
@@ -139,7 +139,7 @@ export default function Index() {
 			</Grid>
 		  </div>
 		</div>
-		<div className="img-box" style={{paddingTop: '5px'}}>
+		<div className="img-box" style={{padding: '0px'}}>
 		  <img alt="" src="/cat3.jpg" className="ui fluid image" />
 		  <div className="company-top-msg msg">
 			<i style={{color: 'white !important'}}>

@@ -38,6 +38,12 @@ a {
 	padding: 30px;
 	position: absolute;
   }
+  .top-top-msg {
+	top: 10%;
+	left: 5%;
+	animation:top-header 3s ease 1s infinite normal none running;
+	font-size: 3vw;
+  }
 }
 @media (max-width: 799px){
   .msg {
@@ -55,12 +61,12 @@ a {
   .ui.grid>* {
 	padding: 0 !important;
   }
-}
-.top-top-msg {
-  top: 10%;
-  left: 5%;
-  animation:top-header 3s ease 1s infinite normal none running;
-  font-size: 3vw;
+  .top-top-msg {
+	top: 20%;
+	left: 5%;
+	animation:top-header 3s ease 1s infinite normal none running;
+	font-size: 3vw;
+  }
 }
 
 .top-bottom-msg {
